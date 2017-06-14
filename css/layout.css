@@ -1,0 +1,46 @@
+body,ul{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:#fff2e3;
+  color:#87968e;
+}
+
+a{
+  text-decoration:none;
+  color: #72b890;
+  fon
+}
+
+header h1{
+  font-size:3em;
+}
+
+li{
+  list-style:none;
+  display:inline-block;
+  margin:50px 2px; 
+}
+
+.wrapper{
+  width:600px;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+}
+
+.btn{
+  background:#72b890;
+  margin:50px 0;
+  padding:8px 16px;
+  color:#fff;
+  border-radius:5px;
+}
+
+li:hover{
+  opacity:0.8;
+}
